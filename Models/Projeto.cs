@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace API.TRACKR.Models
 {
-    public class Projeto
+    public class Projeto : BaseModel
     {
         public int ID { get; set; }
         public string Nome { get; set; }
@@ -16,9 +16,10 @@ namespace API.TRACKR.Models
 
     }
 
-    public class Tarefa
+    public class Tarefa : BaseModel
     {
         public int ID { get; set; }
         public int Nome { get; set; }
+        public List<Projeto> Projeto;
     }
 }

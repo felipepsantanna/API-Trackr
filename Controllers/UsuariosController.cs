@@ -13,40 +13,33 @@ namespace API.TRACKR.Controllers
     public class UsuariosController : Controller
     {
         private readonly IConfiguration _config;
-        public UsuariosController(IConfiguration config)
+        private readonly IUsuarioRepository _usuarioRepository;
+        public UsuariosController(IConfiguration config, IUsuarioRepository usuarioRepository)
         {
             _config = config;
+            _usuarioRepository = usuarioRepository;
         }
 
         // GET usuarios
         [HttpGet]
         public JsonResult Get()
         {
-            Usuario u = new Usuario();
-            u.ID = 1;
-            u.Nome = "jose";
-            u.Email = "jose@jose.com.br";
-
-            List<Usuario> us = new List<Usuario>();
-            us.Add(u);
-
-
-            return Json(us);
+            return Json(_usuarioRepository.GetUsuarios());
         }
 
         // GET usuarios/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public JsonResult Get(int id)
         {
-            return id.ToString();
+            return Json(_usuarioRepository.GetUsuario(id));
         }
 
 
         //POST usuario
         [HttpPost]
-        public bool Post([FromBody] string value)
+        public JsonResult Post([FromBody] Usuario value)
         {
-            return true;
+            return Json(_usuarioRepository.AddUsuario(value));
         }
 
     }

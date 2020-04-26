@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace API.TRACKR.Models
 {
-    public class UsuarioConfigs
+    public class UsuarioConfigs : BaseModel
     {
         //tabela com as configurações de cada usuario
         public int ID { get; set; }
-        public Usuario usuario { get; set; }
+        public Usuario Usuario { get; set; }
         public string PrimeiroDiaDaSemana { get; set; }
         public Decimal AumentarDiminuirMinutos { get; set; }
     }

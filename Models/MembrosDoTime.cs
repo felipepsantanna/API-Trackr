@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace API.TRACKR.Models
 {
-    public class MembrosDoTime
+    public class MembrosDoTime : BaseModel
     {
         public int IDUsuario { get; set; }
         public int IDTime { get; set; }

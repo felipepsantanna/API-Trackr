@@ -13255,11 +13255,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\felipepsantanna\\source\\repos\\API.TRACKR\\API.TRACKR\\API.TRACKR.csproj",
+      "projectUniqueName": "C:\\Users\\felipepsantanna\\Documents\\Projetos\\API-Trackr\\API.TRACKR.csproj",
       "projectName": "API.TRACKR",
-      "projectPath": "C:\\Users\\felipepsantanna\\source\\repos\\API.TRACKR\\API.TRACKR\\API.TRACKR.csproj",
+      "projectPath": "C:\\Users\\felipepsantanna\\Documents\\Projetos\\API-Trackr\\API.TRACKR.csproj",
       "packagesPath": "C:\\Users\\felipepsantanna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\felipepsantanna\\source\\repos\\API.TRACKR\\API.TRACKR\\obj\\",
+      "outputPath": "C:\\Users\\felipepsantanna\\Documents\\Projetos\\API-Trackr\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -34,6 +34,10 @@ namespace API.TRACKR
             services.AddDbContext<ApplicationContext>(options =>
             options.UseMySQL(connectionString)
             );
+
+            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+            services.AddTransient<IHorasTrabalhadasRepository, HorasTrabalhadasRepository>();
+            services.AddTransient<IProjetoReporitory, ProjetoReporitory>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,6 +48,7 @@ namespace API.TRACKR
             {
                 app.UseDeveloperExceptionPage();
             }
+
 
             app.UseMvc();
 
