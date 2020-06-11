@@ -22,8 +22,8 @@ namespace API.TRACKR.Data
             modelBuilder.Entity<Usuario>().HasKey(u => u.ID);
             modelBuilder.Entity<Usuario>().HasOne(u => u.Nivel);
 
-            modelBuilder.Entity<UsuarioConfigs>().HasKey(uc => uc.ID);
-            modelBuilder.Entity<UsuarioConfigs>().HasOne(uc => uc.Usuario);
+            modelBuilder.Entity<Models.UsuarioConfigs>().HasKey(uc => uc.ID);
+            modelBuilder.Entity<Models.UsuarioConfigs>().HasOne(uc => uc.Usuario);
 
             modelBuilder.Entity<Time>().HasKey(t => t.ID);
             modelBuilder.Entity<CargoDoTime>().HasKey(c => c.ID);
