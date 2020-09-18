@@ -1,10 +1,10 @@
-﻿using API.TRACKR.Models;
+﻿using API.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace API.TRACKR.Data
+namespace API.Data
 {
     public interface ITarefaRepository
     {

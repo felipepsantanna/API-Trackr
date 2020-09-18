@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using API.TRACKR.Data;
-using API.TRACKR.Models;
+using API.Data;
+using API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
-namespace API.TRACKR.Controllers
+namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

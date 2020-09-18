@@ -13255,9 +13255,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\felipepsantanna\\Documents\\Projetos\\API-Trackr\\API.TRACKR.csproj",
-      "projectName": "API.TRACKR",
-      "projectPath": "C:\\Users\\felipepsantanna\\Documents\\Projetos\\API-Trackr\\API.TRACKR.csproj",
+      "projectUniqueName": "C:\\Users\\felipepsantanna\\Documents\\Projetos\\API-Trackr\\API.csproj",
+      "projectName": "API",
+      "projectPath": "C:\\Users\\felipepsantanna\\Documents\\Projetos\\API-Trackr\\API.csproj",
       "packagesPath": "C:\\Users\\felipepsantanna\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\felipepsantanna\\Documents\\Projetos\\API-Trackr\\obj\\",
       "projectStyle": "PackageReference",

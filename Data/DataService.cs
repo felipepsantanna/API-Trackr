@@ -1,10 +1,10 @@
-﻿using API.TRACKR.Data;
-using API.TRACKR.Models;
+﻿using API.Data;
+using API.Models;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.IO;
 
-namespace API.TRACKR.Data
+namespace API.Data
 {
     public partial class Startup
     {
@@ -34,17 +34,17 @@ namespace API.TRACKR.Data
 
                 NivelDoUsuario nivel = new NivelDoUsuario();
                 nivel.ID = 1;
-                nivel.Descricao = "Colaborador";
+                nivel.Descricao = "Admin";
                 _niveis.Add(nivel);
 
                 nivel = new NivelDoUsuario();
                 nivel.ID = 2;
-                nivel.Descricao = "Gestor";
+                nivel.Descricao = "Colaborador";
                 _niveis.Add(nivel);
 
                 nivel = new NivelDoUsuario();
                 nivel.ID = 3;
-                nivel.Descricao = "Admin";
+                nivel.Descricao = "Gestor";
                 _niveis.Add(nivel);
 
                 return _niveis;

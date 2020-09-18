@@ -1,9 +1,9 @@
-﻿using API.TRACKR.Data;
-using API.TRACKR.Models;
+﻿using API.Data;
+using API.Models;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace API.TRACKR.Data
+namespace API.Data
 {
     public class BaseRepository<T> where T : BaseModel
     {

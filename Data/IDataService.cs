@@ -1,4 +1,4 @@
-﻿namespace API.TRACKR.Data
+﻿namespace API.Data
 {
     public interface IDataService
     {

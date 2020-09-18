@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using API.TRACKR.Models;
+using API.Models;
 
-namespace API.TRACKR.Data
+namespace API.Data
 {
     public interface INivelDoUsuarioRepository
     {

@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
-using API.TRACKR.Models;
+using API.Models;
 using System;
 
-namespace API.TRACKR.Data
+namespace API.Data
 {
     public interface IHorasTrabalhadasRepository
     {
